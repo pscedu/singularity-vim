@@ -1,0 +1,16 @@
+Bootstrap: docker
+From: alpine:edge
+
+%labels
+    AUTHOR icaoberg
+    EMAIL icaoberg@psc.edu
+    WEBSITE https://github.com/pscedu/singularity-vim
+    COPYRIGHT Copyright © 2021-2024 Pittsburgh Supercomputing Center. All Rights Reserved.
+    VERSION 9.1
+
+%post
+    apk update
+    apk add vim
+
+%runscript
+    vim "$@"

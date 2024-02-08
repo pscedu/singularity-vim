@@ -1,7 +1,48 @@
+![Status](https://github.com/pscedu/singularity-vim/actions/workflows/main.yml/badge.svg)
+![Issue](https://img.shields.io/github/issues/pscedu/singularity-vim)
+![forks](https://img.shields.io/github/forks/pscedu/singularity-vim)
+![Stars](https://img.shields.io/github/stars/pscedu/singularity-vim)
+![License](https://img.shields.io/github/license/pscedu/singularity-vim)
+
 # singularity-vim
-Vim is a clone, with additions, of Bill Joy's vi text editor program for Unix.
+Singularity recipe for [vim](https://www.vim.org).
+
+## Installing the container on Bridges 2
+Copy the
+
+* `SIF` file
+* and the `vim` script
+
+to `/opt/packages/vim/9.1`.
+
+Copy the file `modulefile.lua` to `/opt/modulefiles/vim` as `9.1.lua`.
+
+## Building the image using the recipe
+
+### To build the image locally
+Run the script `build.sh` to build image locally.
+
+```
+bash ./build.sh
+```
+
+### To build the image remotely
+Run the script `rbuild.sh` to build image remotely.
+
+```
+bash ./rbuild.sh
+```
+
+## To run tests
+To run the available tests, run the command
+
+```
+bash ./test.sh
+```
 
 ---
-[![PSC](http://www.andrew.cmu.edu/user/icaoberg/images/logos/psc.png)](http://www.psc.edu)
+Copyright © 2020-2024 Pittsburgh Supercomputing Center. All Rights Reserved.
 
-icaoberg at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
+The [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing
+Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
+

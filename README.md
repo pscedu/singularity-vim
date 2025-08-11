@@ -1,4 +1,5 @@
 ![Status](https://github.com/pscedu/singularity-vim/actions/workflows/main.yml/badge.svg)
+![Status](https://github.com/pscedu/singularity-vim/actions/workflows/pretty.yml/badge.svg)
 ![Issue](https://img.shields.io/github/issues/pscedu/singularity-vim)
 ![forks](https://img.shields.io/github/forks/pscedu/singularity-vim)
 ![Stars](https://img.shields.io/github/stars/pscedu/singularity-vim)
